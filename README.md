@@ -2,35 +2,43 @@
 
 Bridge Single Dummy Analyzer lets you import deals and tournament results from
 BBO, PBN, Messer and Dibris, analyze the auction and explore the play with
-comprehensive single-dummy analysis.
+single-dummy analysis.
 
 ## Downloads and installation
 
 See the [latest release and release notes](https://github.com/kgrauwel/BridgeSingleDummy/releases/latest)
-for the available version, installation requirements and known limitations.
+for installation requirements and known limitations.
 
-Current published version: **v0.9.13-test**.
+Current Windows and Linux version: **v0.9.14-test**.
+The Mac version remains **v0.9.13-test**, unchanged. The new v0.9.14 features are
+currently available on Windows and Linux only; Mac builds follow a less-frequent cadence.
 
 | Your platform | Installation file |
 | --- | --- |
-| Windows 64-bit | [Windows ZIP](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.13-test/BridgeSingleDummy-v0.9.13-test-win-x64.zip) |
-| macOS 14 or newer, Apple Silicon and Intel | [macOS universal ZIP](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.13-test/BridgeSingleDummy-v0.9.13-test-macos-universal.zip) |
-| Ubuntu 22.04 or newer, Debian or Linux Mint with glibc 2.35 or newer (x64) | [Linux DEB](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.13-test/BridgeSingleDummy-v0.9.13-test-linux-x64.deb) |
-| Other compatible Linux distributions or manual installation (x64) | [Linux TAR.GZ](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.13-test/BridgeSingleDummy-v0.9.13-test-linux-x64.tar.gz) |
+| Windows 64-bit | [Windows ZIP — v0.9.14](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.14-test/BridgeSingleDummy-v0.9.14-test-win-x64.zip) |
+| macOS 14 or newer, Apple Silicon and Intel | [macOS universal ZIP — v0.9.13, retained](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.14-test/BridgeSingleDummy-v0.9.13-test-macos-universal.zip) |
+| Ubuntu 22.04+, or compatible Debian/Linux Mint with glibc 2.35+ (x64) | [Linux DEB — v0.9.14](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.14-test/BridgeSingleDummy-v0.9.14-test-linux-x64.deb) |
+| Other compatible Linux distributions or manual installation (x64) | [Linux TAR.GZ — v0.9.14](https://github.com/kgrauwel/BridgeSingleDummy/releases/download/v0.9.14-test/BridgeSingleDummy-v0.9.14-test-linux-x64.tar.gz) |
 
 All packages are self-contained: no separate .NET installation is required.
-Follow the installation and first-launch instructions in the package README.
-Keep the included program files together. User guides in Dutch, English and
-French are included in every package.
+Extract the Windows ZIP completely and start `BridgeSingleDummy.exe`. For Linux,
+install the DEB with your package manager, or extract the TAR.GZ and run
+`./BridgeSingleDummy`. Follow the package README for complete first-launch instructions.
+Keep the included program files together. Dutch, English and French user guides
+appropriate to the package's actual version are included.
 
-This test release is usable through **31 December 2026** and expires on
+These test builds are usable through **31 December 2026** and expire on
 **1 January 2027**. Keep an older installation separately if you need a fallback;
 do not overwrite personal data.
 
-The macOS app is ad-hoc signed and **not notarized by Apple**. See the package
+The macOS app is ad-hoc signed and **not notarized by Apple**. See its package
 README for first-launch instructions if macOS displays a security warning.
 
-The four files above are the installation packages. The automatically generated
-GitHub "Source code" ZIP/TAR links are not application installers.
+SD chance full uses an experimental defensive-choice model; its percentages are
+estimates under that model. SD Robust is a bounded search, not a guarantee against
+every legal defence. See the help and release notes for model assumptions.
+
+The four files above are installers. GitHub's automatically generated "Source code"
+ZIP/TAR links are not application installers.
 
 Contact: [bridgesingledummy@gmail.com](mailto:bridgesingledummy@gmail.com).
